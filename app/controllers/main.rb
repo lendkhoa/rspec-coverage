@@ -1,5 +1,7 @@
 module Main
-  def hello_world
-    "hello, world"
+  class App
+    def hello_world
+      "hello, world"
+    end
   end
 end
