@@ -1,7 +1,90 @@
 {
   "RSpec": {
     "coverage": {
+      "/Users/khoale/Documents/workspace/rspec-coverage/lib/string_calculator.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          null,
+          null,
+          1,
+          1,
+          null,
+          null
+        ],
+        "branches": {
+        }
+      },
+      "/Users/khoale/Documents/workspace/rspec-coverage/app/mailers/application_mailer.rb": {
+        "lines": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "branches": {
+        }
+      },
+      "/Users/khoale/Documents/workspace/rspec-coverage/app/models/application_record.rb": {
+        "lines": [
+          0,
+          0,
+          0
+        ],
+        "branches": {
+        }
+      },
+      "/Users/khoale/Documents/workspace/rspec-coverage/app/jobs/application_job.rb": {
+        "lines": [
+          0,
+          null,
+          null,
+          null,
+          null,
+          null,
+          0
+        ],
+        "branches": {
+        }
+      },
+      "/Users/khoale/Documents/workspace/rspec-coverage/app/controllers/application_controller.rb": {
+        "lines": [
+          0,
+          0
+        ],
+        "branches": {
+        }
+      },
+      "/Users/khoale/Documents/workspace/rspec-coverage/app/helpers/application_helper.rb": {
+        "lines": [
+          0,
+          0
+        ],
+        "branches": {
+        }
+      },
+      "/Users/khoale/Documents/workspace/rspec-coverage/app/channels/application_cable/connection.rb": {
+        "lines": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "branches": {
+        }
+      },
+      "/Users/khoale/Documents/workspace/rspec-coverage/app/channels/application_cable/channel.rb": {
+        "lines": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "branches": {
+        }
+      }
     },
-    "timestamp": 1640982869
+    "timestamp": 1641337644
   }
 }

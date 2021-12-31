@@ -1,4 +1,6 @@
 require 'simplecov'
-SimpleCov.start
-
-# Previous content of test helper now starts here
+# check for a minimum line coverage of 90%
+SimpleCov.minimum_coverage line: 10
+SimpleCov.start 'rails' do
+	enable_coverage(:branch)
+end
