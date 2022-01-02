@@ -4,22 +4,25 @@ name: Manual workflow
 
 # Controls when the action will run. Workflow runs when manually triggered using the UI
 # or API.
-on:
-  release:
-    types: [created]
-  push:
-    branches: [main]
+on: [push, pull_request]
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
   # This workflow contains a single job called "greet"
-  greet:
+  coverage:
     # The type of runner that the job will run on
     runs-on: ubuntu-latest
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
+    - uses: actions/checkout@v2
+    - uses: actions/setup-ruby@v1
+      with:
+      ruby-version: '2.6.4' 
     - name: Install gems
-      run: bundle install
+      run: |
+        sudo apt-get -yqq install libpq-dev
+        gem install bundler
+        bundler install
     - name: Run rspec
       run: rspec
