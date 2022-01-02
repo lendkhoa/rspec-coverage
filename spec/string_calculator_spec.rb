@@ -9,5 +9,12 @@ describe StringCalculator do
         expect(StringCalculator.add("")).to eq(0)
       end
     end
+
+    context "given an empty string" do
+      it "returns -1" do
+        expect(StringCalculator.subtract("")).to eq(-1)
+      end
+    end
+
   end
 end
