@@ -1,7 +1,20 @@
 {
   "RSpec": {
     "coverage": {
+      "/Users/khoale/code/rspec-coverage/lib/string_calculator.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          null,
+          null,
+          1,
+          0,
+          null,
+          null
+        ]
+      }
     },
-    "timestamp": 1640983252
+    "timestamp": 1641142839
   }
 }
