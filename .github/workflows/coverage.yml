@@ -27,4 +27,4 @@ jobs:
       uses: lendkhoa/simplecov-report-action@v2.0.0
       with:
         token: ${{ secrets.GITHUB_TOKEN }}
-        failedThreshold: 18
+        failedThreshold: 19.22
