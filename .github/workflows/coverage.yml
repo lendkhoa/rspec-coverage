@@ -24,7 +24,7 @@ jobs:
         path: /home/runner/work/rspec-coverage/rspec-coverage/coverage/index.html
         retention-days: 1
     - name: Simplecov Report 2
-      uses: lendkhoa/simplecov-report-action@v1
+      uses: lendkhoa/simplecov-report-action@v2
       with:
         token: ${{ secrets.GITHUB_TOKEN }}
-        failedThreshold: 17
+        failedThreshold: 19
