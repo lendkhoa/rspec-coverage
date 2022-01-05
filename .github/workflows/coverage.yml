@@ -28,3 +28,6 @@ jobs:
       with:
         token: ${{ secrets.GITHUB_TOKEN }}
         failedThreshold: 19.22
+    - name: SimpleCov resultset difference
+      uses: kzkn/simplecov-resultset-diff-action@v1
+
